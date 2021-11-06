@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "oo73KUnXbylPCEkTuoPiG2Y/aUeX9W8HRYMFS9ykh0amfbQpNwmBH8AoSy3COPLP7EYg/nCM+vfs3IZEzExMQA==",
+  "success": true,
+  "projectFilePath": "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\PyFacturacion\\FacturacionFront.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alvaro\\.nuget\\packages\\visualbasic.powerpacks.vs\\1.0.0\\visualbasic.powerpacks.vs.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"VisualBasic.PowerPacks.Vs 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "VisualBasic.PowerPacks.Vs",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

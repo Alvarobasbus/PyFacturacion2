@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "VisualBasic.PowerPacks.Vs/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
+          "lib/Microsoft.VisualBasic.dll": {}
+        },
+        "runtime": {
+          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
+          "lib/Microsoft.VisualBasic.dll": {}
+        }
+      },
+      "FacturacionBack/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "VisualBasic.PowerPacks.Vs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FacturacionBack.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FacturacionBack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisualBasic.PowerPacks.Vs/1.0.0": {
+      "sha512": "IiQWQjCWfPmwR8Q1P1V/z1Et7Mr3QG4RUw+mgXuUgNvseNm06VDEZu8DwlZx9UXw+Uf6E7E/d5wXpGEYJOuG7g==",
+      "type": "package",
+      "path": "visualbasic.powerpacks.vs/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll",
+        "lib/Microsoft.VisualBasic.dll",
+        "visualbasic.powerpacks.vs.1.0.0.nupkg.sha512",
+        "visualbasic.powerpacks.vs.nuspec"
+      ]
+    },
+    "FacturacionBack/1.0.0": {
+      "type": "project",
+      "path": "../FacturacionBack/FacturacionBack.csproj",
+      "msbuildProject": "../FacturacionBack/FacturacionBack.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "FacturacionBack >= 1.0.0",
+      "VisualBasic.PowerPacks.Vs >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alvaro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\PyFacturacion\\FacturacionFront.csproj",
+      "projectName": "FacturacionFront",
+      "projectPath": "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\PyFacturacion\\FacturacionFront.csproj",
+      "packagesPath": "C:\\Users\\Alvaro\\.nuget\\packages\\",
+      "outputPath": "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\PyFacturacion\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Alvaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\FacturacionBack\\FacturacionBack.csproj": {
+              "projectPath": "D:\\UTN FRC TUP\\2 cuatrimestre 2021\\3.Miercoles - Programacion II\\Proyecto\\FacturacionBack\\FacturacionBack.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "VisualBasic.PowerPacks.Vs": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"VisualBasic.PowerPacks.Vs 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "VisualBasic.PowerPacks.Vs",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
